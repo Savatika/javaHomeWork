@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Test {
+
+public class TAsk1Sem4 {
     public static void main(String[] args) {
         // Создаем списки
 
@@ -35,7 +36,7 @@ public class Test {
         int num = number(rev1) * number(rev2);
         System.out.println(Deq(num));
     }
-    public static int number(Deque<Integer> deque) {
+    public static int number(Deque<Integer> deque) { // переводим в число
         int num = 0;
         int stepen = deque.size()-1;
         while (!deque.isEmpty()) {
