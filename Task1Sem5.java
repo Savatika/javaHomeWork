@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Test {
+public class Task1Sem5 {
     public static void main(String[] args) {
         HashMap<String, ArrayList<Integer>> phoneAndName = new HashMap<>();
         boolean fun = false;
